@@ -1,5 +1,5 @@
 @startuml override-skin
-!includeurl https://raw.githubusercontent.com/xuanye/plantuml-style-c4/master/colors.puml
+!includeurl https://raw.githubusercontent.com/blademainer/plantuml-style-c4/master/colors.puml
 ' uncomment the following line and comment the first to use locally
 '!include colors.puml
 
@@ -222,7 +222,7 @@ skinparam Card {
 }
 
 skinparam Cloud {
-    BackgroundColor MD_BLUE_50
+    BackgroundColor MD_WHITE
     BorderColor MD_GRAY_800
 }
 
@@ -250,14 +250,14 @@ skinparam File {
 skinparam Folder {
     BackgroundColor MD_BLUE_50
     BorderColor MD_GRAY_800
-   
+
 }
 skinparam Frame {
     BackgroundColor MD_BLUE_50
     BorderColor MD_GRAY_800
 }
 skinparam Node {
-    BackgroundColor MD_BLUE_50
+    BackgroundColor MD_BLUE_200
     BorderColor MD_GRAY_800
 }
 
@@ -290,6 +290,7 @@ skinparam rectangle<<usercase>> {
     BorderStyle dashed
     BackgroundColor White
 }
+
 
 
 @enduml
